@@ -1,39 +1,48 @@
 # Kairo Kart
 
-Kairo Kart is a Node.js ecommerce demo with a static frontend and backend API routes.
+A fully functional and responsive e-commerce website built with React and Vite.
 
-## Frontend
+## Features
 
-- `index.html`, `styles.css`, and `script.js` power the main storefront.
-- `iphone.html`, `iphone.css`, and `iphone.js` power the iPhone product configurator.
-- Product and section images live in `assets/`.
+- 🛍️ Product catalog with 12 sample products
+- 🔍 Category filtering and sorting
+- 🛒 Shopping cart with add/remove/update quantity
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- 💳 Checkout page with form validation
+- 🎨 Modern UI with smooth animations
+- ⚡ Fast performance with Vite
 
-## Backend
+## Installation
 
-- `server.js` runs the local Node.js server and JSON-backed demo API.
-- `api/` contains Vercel serverless Node.js API functions for deployment.
-- Supported API routes:
-  - `GET /api/health`
-  - `GET /api/orders`
-  - `POST /api/orders`
-  - `DELETE /api/orders`
-  - `POST /api/messages`
-  - `POST /api/subscribers`
-
-## Run Locally
-
+1. Install dependencies:
 ```bash
-npm start
+npm install
 ```
 
-Open `http://localhost:5500/index.html`.
+2. Run the development server:
+```bash
+npm run dev
+```
 
-## Deploy On Vercel
+3. Open your browser and visit the URL shown in the terminal (usually http://localhost:5173)
 
-- Framework Preset: `Other`
-- Build Command: leave empty
-- Output Directory: leave empty or use `.`
-- Install Command: leave default or empty
-- Root Directory: the folder that contains `index.html`
+## Build for Production
 
-If Vercel shows `Not Found`, check the deployment settings and make sure the output directory is not set to `dist`, `build`, or `public`.
+```bash
+npm run build
+```
+
+## Features Included
+
+- Product browsing with images
+- Category filtering (Electronics, Fashion, Home, Sports, Accessories)
+- Sort by price and rating
+- Add to cart functionality
+- Cart sidebar with live updates
+- Quantity management
+- Checkout form with shipping and payment details
+- Responsive navigation menu
+- Product detail pages
+- Related products suggestions
+
+All buttons are fully functional and the entire site is responsive across all devices.
